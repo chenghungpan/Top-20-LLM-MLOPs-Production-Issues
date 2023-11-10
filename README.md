@@ -1,6 +1,6 @@
 # LLM MLOps Production Issues and Solutions
 
-A comprehensive guide addressing the primary challenges and solutions in deploying and maintaining large language models (LLMs) in production.
+The following tips are based on my past 13 years of MLOPs/LLM(Large Languate Model) production experiences.
 
 ## Top 20 Issues and Solutions
 
