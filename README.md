@@ -79,9 +79,9 @@ The following tips are based on my past 13 years of MLOPs/LLM(Large Languate Mod
 ### 19. Customization and Fine-Tuning
 - **Issue:** Adapting pre-trained models to specific domains.
 - **Solution:** 
-    - **General Approach:** Use techniques like transfer learning and fine-tuning with domain-specific data, and involve domain experts in the training process.
-    - **Meta's LLAMA-2:** An open-source Large Language Model by Meta, suitable for fine-tuning on specific tasks and datasets. Its design allows for efficient customization, making it a strong candidate for domain-specific applications.
-    - **RAG (Retrieval-Augmented Generation):** Combines language models like BERT and GPT with a neural retrieval mechanism. This allows the model to reference external knowledge bases during generation, making it ideal for tasks that require up-to-date or specialized information.
+    - **General Approach:** Use techniques like transfer learning and fine-tuning with domain-specific data, and involve domain experts in the training process. Additionally, consider leveraging recent advancements such as Meta's LLAMA-2 and RAG for more specialized customization:
+    - **Meta's LLAMA-2:** An open-source Large Language Model by Meta, which offers advanced capabilities for fine-tuning on specific tasks and datasets. It's designed to be more efficient and adaptable, making it suitable for a wide range of applications. LLAMA-2's architecture and pre-training methods make it a strong candidate for domain-specific customization, allowing for fine-tuning with potentially lower resource requirements compared to other models.
+    - **RAG (Retrieval-Augmented Generation):** RAG combines the power of language models like BERT and GPT with a neural retrieval mechanism. This setup allows the model to reference external knowledge bases or documents during the generation process, making it highly effective for tasks requiring up-to-date or specialized information. Implementing RAG can significantly enhance the capability of LLMs in domains where incorporating external, dynamic knowledge is crucial.
     - **Advantages:** Both LLAMA-2 and RAG represent advanced options for customizing LLMs. They enable more effective tailoring of models to specific domains or needs, enhancing the relevance and accuracy of outputs.
 
 ### 20. Ethical and Legal Considerations
