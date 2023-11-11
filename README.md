@@ -11,6 +11,7 @@ The following tips are based on my past 13 years of MLOPs/LLM(Large Languate Mod
 ### 2. Model Latency
 - **Issue:** High inference latency, problematic for real-time applications.
 - **Solution:** Implement model distillation to create lighter versions, optimize the deployment environment (e.g., edge computing), and batch requests where real-time responses are not critical.
+- **Details:** https://github.com/chenghungpan/Optimize-LLM-Inference-Speed.git
 
 ### 3. Scaling Difficulty
 - **Issue:** Difficulty in scaling LLMs to handle variable loads.
